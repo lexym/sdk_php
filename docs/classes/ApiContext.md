@@ -2,7 +2,7 @@
 
 `APIContext` represents the set of client identifiers that you need to pass with API calls. 
 
-**TIP:** both saving and restoring the context can be done without any arguments. In this case the context will be saved to/restored from the bunq.conf file in the same folder with your script.
+**💡 TIP:** both saving and restoring the context can be done without any arguments. In this case the context will be saved to/restored from the bunq.conf file in the same folder with your script.
 
 ## Functions
 
@@ -70,7 +70,7 @@ $apiContext = ApiContext::createForPsd2(
 
 The function restores the API context you saved in a file.
 
-**TIP:** both saving and restoring the context can be done without any arguments. In this case the context will be saved to/restored from the bunq.conf file in the same folder with your script.
+**💡 TIP:** both saving and restoring the context can be done without any arguments. In this case the context will be saved to/restored from the bunq.conf file in the same folder with your script.
 
 | Parameter  | Type | Description | 
 | ------------- | ------------- | ------------- |
